@@ -1,0 +1,273 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    height:12vh;
+    background-color: black;
+}
+.main{
+    width: 100vw;
+    height: 88vh;
+    background-color: color-mix(in srgb, #4125D5 50%, black 50%);
+    display: flex;
+    font-family: "Poppins","sans-serif";
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    gap: 0px;
+    padding-left: 100px;
+    justify-content: center;
+    
+   
+    
+}
+#headphone{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+#wireless{
+    font-size: 5rem;
+    font-weight: bolder;
+    
+}
+#bestsolo{
+    
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+button{
+    border: 2.5px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: 200px;
+    
+   
+    margin: 20px;
+    height: 50px;
+}
+#b1{
+    color: black;
+    background-color: color-mix(in srgb, #4125D5 50%, black 50%);
+}
+#b2{
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    padding: 25px;
+    margin-left: 150px;
+}
+#b1:hover{
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+#b2:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.main2{
+    width: 100vw;
+    margin-top: 80px;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+.fea{
+    display: flex;
+    gap: 15px;
+}
+
+.feature span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; 
+}
+.feature p{
+    font-weight: 400;
+}
+footer{
+    background-color: gray;
+    height:70vh;
+    width: 100vw;
+   
+    
+    
+}footer span{
+    color:  #4125D5;
+    font-size: 2.5rem;
+}
+footer p{
+    color: black;
+    font-family: "Poppins", "sans-serif";
+}
+.footb{
+    padding: 100px;
+    width: 80vw;
+    display: flex;
+    gap: 100px;
+    
+    flex-direction: row;
+    justify-content: center;
+    
+    
+
+}
+.mainbox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    padding: 50px;
+
+}
+.box1{
+    background-color: #dfdfdf;
+    width: 20vw;
+    border-radius: 45px;
+    color: #000000;
+}
+.text1{
+    padding: 20px;
+    font-family: "Poppins", "sans-serif";
+}
+.b3{
+    background-color: #000000;
+    font-family: "Poppins", "sans-serif";
+    
+}
+.box2{
+    background-color: #d33048;
+    width: 20vw; border-radius: 45px;
+}
+.box3{
+    background-color: #000000;
+    width: 20vw; border-radius: 45px;
+}
+.box1 img{
+    width: 100%;
+    padding-top: 150px;
+}
+.box2 img{
+    width: 80%;
+    
+}
+.b4{
+    background-color: white;
+    color: #000000;
+}
+.b3:hover{
+   
+        border:black 2px solid;
+        color: black;
+        background-color:white;
+}   
+.b4:hover{
+    border: white 2px solid;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+.box3 img{
+    width: 120%;
+}
+@media (max-width: 600px) {
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        height: 10vh;
+    }
+    .logo {
+        margin-left: 0;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+        
+    }
+    .main img{
+        
+        width: 100vw;
+    }
+    .tag{
+        display: flex;
+        width: 100vw; 
+        padding-left: 10px;
+        padding-top: 100px;
+        
+    }
+    #headphone{
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+    #wireless{
+        font-size: 4rem;
+        font-weight: bolder;
+        
+    }
+    #bestsolo{
+        
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .feature{
+        display: flex;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .mainbox{
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 100%;
+    }
+    .box1{
+        width: 90vw;
+        align-self: center;
+    }
+    .box2{
+        width: 90vw;
+        align-self: center;
+    }
+    .box3{
+        width: 90vw;
+        align-self: center;
+    }
+    .box3 img{
+       width: 100%;
+    }
+    
+    footer{
+        height: 100%;
+       
+       
+    }
+    .footb{
+        width: 100vw;
+        flex-direction: column;
+
+    }
+    
+  }
